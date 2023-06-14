@@ -1,7 +1,10 @@
 
-type TOptionTitle = {
+type IHeaderTitle = {
     title: string;
     value: string;
     visible ?: boolean;
 };
-export type {TOptionTitle};
+
+type TNumberOrString = number | string
+
+export type {IHeaderTitle,TNumberOrString};

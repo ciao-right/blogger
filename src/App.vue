@@ -1,16 +1,13 @@
 <template>
   <div>
-    <Home />
+    <Layout />
   </div>
 </template>
 
 
 <script setup lang="ts">
-import Home from "@/view/home/index.vue";
+import Layout from "@/layout/index.vue";
 </script>
-
-
-
-<style scoped>
-
+<style  lang="less">
+@import "style/common.less";
 </style>
