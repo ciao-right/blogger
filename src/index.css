@@ -1,11 +1,9 @@
-/* ./src/index.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 /*reset*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+#app {
+  width: 100%;
 }

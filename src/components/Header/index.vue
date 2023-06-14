@@ -18,7 +18,7 @@ const optionTitle: Array<TOptionTitle> = [
 </script>
 
 <template>
-  <div class="container mx-auto fixed flex">
+  <div class="container p-50 mx-auto fixed flex">
     <div class="left-header-content flex">
       <div class="logo">
         this is logo
@@ -33,4 +33,5 @@ const optionTitle: Array<TOptionTitle> = [
 </template>
 
 <style lang="less" scoped>
+
 </style>
